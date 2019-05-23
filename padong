@@ -1,3 +1,4 @@
+
 GlowScript 2.7 VPython
 scene.width = scene.height = 600
 # There is an L by L grid of vertex objects, numbered 0 through L-1 by 0 through L-1.
@@ -138,3 +139,4 @@ while True:
     if run:
         p.replot()
         t += dt
+

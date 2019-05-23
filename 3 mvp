@@ -107,13 +107,6 @@ wave1=swave(2,1,10,10,0)
 wave2=swave(2,1,10,-15,0)
 
 
-R = 0.5
-d = 48
-if wave1.A != 0 :
-    source1 = cylinder(pos=vec(wave1.y1*48/100+24,0,wave1.x1*48/100+24), axis=vec(0,d,0), radius=R, color=color.yellow)
-if wave2.A != 0 :
-    source2 = cylinder(pos=vec(wave2.y1*48/100+24,0,wave2.x1*48/100+24), axis=vec(0,d,0), radius=R, color=color.yellow)
-
 
 t = 0
 dt = 0.02
